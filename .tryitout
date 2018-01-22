@@ -1,0 +1,33 @@
+module.exports = {
+    title: 'OnWithIt',
+    nav: {
+      Source: 'https://github.com/gabrielcsapo/onwithit'
+    },
+    body: `
+      <div id="main">
+        <div class="grid">
+          <div class="col-lg-6-12 col-md-6-12 col-sm-12-12 col-xs-12-12 text-center" style="margin-top:10px;">
+            <h1>OnWithIt</h1>
+            <h3 style="font-weight: 300;">Don't make your users notice when your event loop stalls. <br/> Get <a href="https://github.com/gabrielcsapo/onwithit" target="_blank" rel="noopener noreferrer">OnWithIt 🚀</a>.</h3>
+            <pre style="width: auto;padding: 25px;text-align: center;display: inline-block;">
+              npm install onwithit --save
+            </pre>
+          </div>
+          <div class="col-lg-6-12 col-md-6-12 col-sm-12-12 col-xs-12-12" style="margin-top:10px;">
+            <img class="responsive" src="./example.gif">
+          </div>
+        </div>
+      </div>
+    `,
+    template: 'landing',
+    options: {
+      width: '100%'
+    },
+    externals: [
+      './docs/main.css'
+    ],
+    output: './docs',
+    footer: `
+      <div class="text-black">Made with ☕️ by <a href="https://www.gabrielcsapo.com">@gabrielcsapo</a></div>
+    `
+};
