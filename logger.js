@@ -22,7 +22,7 @@ function createLoop(state) {
     process.stdout.cursorTo(0);
     // TODO: This needs to understand what line it is on and not write over any other line
     process.stdout.write(`${spinner[tick]} ${text}`);
-    state.tick += tick;
+    tick += 1;
   }, interval);
 }
 

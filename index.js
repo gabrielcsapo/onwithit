@@ -2,7 +2,7 @@ const { fork } = require('child_process');
 
 class OnWithIt {
   constructor(text, debug=false) {
-    this.sub = fork('logger.js');
+    this.sub = fork(`${__dirname}/logger.js`);
     this._text = text;
     this.spinner = ["⠋", "⠙", "⠚", "⠒", "⠂", "⠂", "⠒", "⠲", "⠴", "⠦", "⠖", "⠒", "⠐", "⠐", "⠒", "⠓", "⠋"];
     this.interval = 80;

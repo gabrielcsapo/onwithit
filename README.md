@@ -21,8 +21,8 @@ npm install onwithit --save
 
 ```js
 function wait(time) {
-  var now = new Date().getTime();
-  while(new Date().getTime() < now + time){}
+  var now = Date.now();
+  while(Date.now() < now + time){}
 }
 const OnWithIt = require('onwithit');
 

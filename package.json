@@ -1,6 +1,6 @@
 {
   "name": "onwithit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🚀 a threaded progression logger",
   "main": "index.js",
   "scripts": {
